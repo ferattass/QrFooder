@@ -13,13 +13,21 @@ class _AnasayfaState extends State<Anasayfa> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.menu, color: anaRenk),
+          onPressed: () {
+            // Menü butonuna tıklandığında yapılacak işlemler
+          },
+        ),
         title: Text(
           "QrFooder",
-          style:
-              TextStyle(color: anaRenk, fontFamily: "LogoFont", fontSize: 29),
+          style: TextStyle(
+            color: anaRenk,
+            fontFamily: "LogoFont",
+            fontSize: 29,
+          ),
         ),
-        backgroundColor:
-            anaRenk1, // anaRenk1'in colors.dart'ta tanımlandığından emin olun
+        backgroundColor: anaRenk1,
         centerTitle: true,
       ),
       body: const Center(),
