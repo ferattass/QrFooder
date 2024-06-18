@@ -19,7 +19,7 @@ class _AnasayfaState extends State<Anasayfa> {
               TextStyle(color: anaRenk, fontFamily: "LogoFont", fontSize: 29),
         ),
         backgroundColor:
-            anaRenk1, // anaRenk1'in colors.dart'ta tanımlandığından emin olun
+            anaRenk1, 
         centerTitle: true,
       ),
       body: const Center(),
