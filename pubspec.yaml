@@ -56,6 +56,18 @@ flutter:
     - family: LogoFont
       fonts:
         - asset: fonts/futura.ttf
+    - family: AnaFont
+      fonts:
+        - asset: fonts/yazifont.ttf
+    - family: AnaFont2
+      fonts:
+        - asset: fonts/yazifont2.ttf
+    - family: AltFont
+      fonts:
+        - asset: fonts/altfont1.ttf
+    - family: AltFont2
+      fonts:
+        - asset: fonts/altfont2.ttf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
